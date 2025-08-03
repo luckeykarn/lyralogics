@@ -1,0 +1,295 @@
+body,
+body .about-one__bg-color,
+.team-one,
+.testimonial-one,
+.pricing-one__tab-content-box,
+.pricing-one__main-tab-box .tab-buttons,
+.team-one__social a,
+.blog-one,
+.blog-one:before,
+.pricing-one__price-pack,
+.project-one__filter li p,
+.contact-one__input-box input[type="text"],
+.contact-one__input-box input[type="email"],
+.contact-one__input-box .nice-select,
+.contact-one__input-box textarea,
+.counter-one {
+    background-color: var(--pureshine-black);
+}
+
+
+
+.blog-one__title a,
+.pricing-one__price,
+.testimonial-one__client-name a,
+.team-one__title a,
+.team-one__social a,
+.project-one__title a,
+.why-choose-one__content h4 a,
+.why-choose-one__contact-icon span,
+.why-choose-one__title a,
+.why-choose-one__client-title,
+.before-and-after__points li p,
+.services-one__title a,
+.about-one__mission-box .content h3,
+.about-one__points-list li p,
+.about-one__sub-title,
+.about-one__title {
+    color: var(--pureshine-white);
+}
+
+
+
+
+
+
+.blog-one__text,
+.pricing-one__points li .text p,
+.pricing-one__text,
+.pricing-one__price .clean-count,
+.pricing-one__main-tab-box .tab-buttons .tab-btn span,
+.office-location__text,
+.testimonial-one__date,
+.testimonial-one__text,
+.testimonial-one__client-sub-title,
+.contact-one__input-box input[type="text"],
+.contact-one__input-box input[type="email"],
+.contact-one__input-box .nice-select,
+.contact-one__input-box textarea,
+.team-one__arrow a,
+.team-one__sub-title,
+.project-one__tag,
+.project-one__filter li p,
+.why-choose-one__content p,
+.why-choose-one__text,
+.why-choose-one__count-text,
+.why-choose-one__count-box p,
+.why-choose-one__count-box span,
+.why-choose-one__ratting-text,
+.why-choose-one__curved-circle-2,
+.why-choose-one__curved-circle,
+.before-and-after__text,
+.services-one__count:before,
+.services-one__text,
+.services-one__top-text,
+.about-one__mission-box .content p,
+.about-one__client-text-2,
+.about-one__client-text,
+.about-one__text {
+    color: rgba(var(--pureshine-white-rgb), .50);
+}
+
+
+
+
+.blog-one:before,
+.blog-one,
+.pricing-one,
+.brand-one__wrap,
+.contact-one,
+.team-one,
+.sliding-text-two,
+.sliding-text-one,
+.about-one__bg-color {
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-one,
+.brand-one__wrap,
+.testimonial-one__single,
+.contact-one__right .section-title__tagline-shape,
+.contact-one,
+.team-one__social,
+.project-one,
+.why-choose-one__right-bottom ul li:nth-child(2) .why-choose-one__icon,
+.why-choose-one__right-bottom ul li:nth-child(3) .why-choose-one__icon,
+.why-choose-one__right-bottom ul li:nth-child(4) .why-choose-one__icon,
+.why-choose-one__icon,
+.why-choose-one__client-box,
+.before-and-after,
+.sliding-text-two,
+.services-one,
+.about-one__client-box,
+.sliding-text-one {
+    background-color: #052143;
+}
+
+
+
+
+
+
+.contact-one__right .section-title__tagline-shape-2 {
+    border: 2px solid #052143;
+}
+
+
+
+.pricing-one__price-pack,
+.team-one__arrow a,
+.about-one__client-img-box {
+    border: 1px solid rgba(var(--pureshine-white-rgb), .30);
+}
+
+.testimonial-one__rating-and-date {
+    border-top: 2px solid rgba(var(--pureshine-white-rgb), .30);
+}
+
+.sliding-text-two__title {
+    -webkit-text-stroke: 1px rgba(var(--pureshine-white-rgb), .50);
+}
+
+.about-one__client-box {
+    border: 1px solid #052143;
+}
+
+.section-title__tagline-shape-2 {
+    border: 2px solid var(--pureshine-black);
+}
+
+.section-title__title {
+    color: var(--pureshine-white);
+}
+
+.section-title__title span {
+    color: var(--pureshine-extra);
+}
+
+
+
+
+.pricing-one__shape-bg-2,
+.pricing-one__shape-bg-1,
+.contact-one__bg,
+.project-one__bg-shape-2,
+.services-one__shape-bg-2,
+.services-one__shape-bg {
+    mix-blend-mode: color-burn;
+}
+
+.services-one__count::after {
+    background-color: rgba(var(--pureshine-white-rgb), .50);
+}
+
+.before-and-after__img-list-img {
+    border: 10px solid rgba(var(--pureshine-white-rgb), .50);
+}
+
+.before-and-after__img-box {
+    border: 4px solid rgba(var(--pureshine-white-rgb), .50);
+}
+
+.why-choose-one__client-box {
+    border: 2px solid rgba(var(--pureshine-white-rgb), .30);
+}
+
+.counter-one__single::before {
+    background-color: rgba(var(--pureshine-white-rgb), .10);
+}
+
+.why-choose-one__contact-box {
+    border: 1px solid rgba(var(--pureshine-white-rgb), .10);
+}
+
+
+.pricing-one__main-tab-box .tab-buttons,
+.team-one__share span,
+.team-one__img img {
+    border: 2px solid rgba(var(--pureshine-white-rgb), .30);
+}
+
+.why-choose-one__bg-shape {
+    filter: brightness(0.5);
+}
+
+
+
+
+.why-choose-one__right-bottom ul li:nth-child(2) .why-choose-one__icon,
+.why-choose-one__right-bottom ul li:nth-child(3) .why-choose-one__icon,
+.why-choose-one__right-bottom ul li:nth-child(4) .why-choose-one__icon,
+.why-choose-one__icon {
+    border: 1px solid rgba(var(--pureshine-white-rgb), .10);
+}
+
+.contact-one__small-img-1 img {
+    border: 5px solid rgba(var(--pureshine-white-rgb), .30);
+}
+
+.contact-one__small-img-2 img {
+    border: 4px solid rgba(var(--pureshine-white-rgb), .30);
+}
+
+.project-one__bg-shape {
+    opacity: .20;
+    mix-blend-mode: overlay;
+}
+
+.thm-btn::after {
+    background-color: var(--pureshine-extra);
+}
+
+.thm-btn:hover {
+    color: var(--pureshine-black);
+}
+
+.contact-one__btn-box .thm-btn:hover {
+    color: var(--pureshine-black);
+}
+
+.contact-one__btn-box .thm-btn::after {
+    background-color: var(--pureshine-primary);
+}
+
+
+
+.pricing-one__btn-box:before,
+.pricing-one__points:before {
+    background-color: rgba(var(--pureshine-white-rgb), .30);
+}
+
+
+.pricing-one__shape-bg-2 {
+    mix-blend-mode: multiply;
+}
+
+
+
+
+
+
+
+
+
+
+
+.office-location__shape-1,
+.brand-one__list li img,
+.contact-one__shape-3 img,
+.counter-one__shape-1 img,
+.contact-one__shape-2 img,
+.team-one__shape-2 img,
+.team-one__shape-1 img,
+.before-and-after__bg-shape,
+.before-and-after__shape-1 {
+    filter: invert(1);
+}
+
+/* The End */

@@ -1,0 +1,580 @@
+/*--------------------------------------------------------------
+# Why Choose One
+--------------------------------------------------------------*/
+.why-choose-one {
+    position: relative;
+    display: block;
+    background-color: #11223D;
+    padding: 140px 0 140px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.why-choose-one__shape-3 {
+    position: absolute;
+    top: 0px;
+    right: 35px;
+    opacity: .10;
+    z-index: -1;
+}
+
+.why-choose-one__shape-3 img {
+    width: auto;
+}
+
+.why-choose-one__shape-4 {
+    position: absolute;
+    left: -13.8%;
+    right: 63.7%;
+    top: -20.12%;
+    bottom: 8.03%;
+    opacity: 0.4;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, #6669D8 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+.why-choose-one__shape-5 {
+    position: absolute;
+    left: 66.41%;
+    right: -16.51%;
+    top: -0.27%;
+    bottom: -11.82%;
+    opacity: 0.5;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(250, 86, 116, 0.63) 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+
+.why-choose-one__left {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__left .section-title {
+    margin-bottom: 24px;
+}
+
+.why-choose-one__left .section-title__title {
+    margin-right: -100px;
+}
+
+.why-choose-one__progress-list {
+    position: relative;
+    display: block;
+    margin: 49px 0 50px;
+    max-width: 410px;
+    width: 100%;
+}
+
+.why-choose-one__progress-list li {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__progress-list li+li {
+    margin-top: 41px;
+}
+
+.why-choose-one__progress {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__progress-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--techguru-white);
+    margin-bottom: 12px;
+}
+
+.why-choose-one__progress .bar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.why-choose-one__progress .bar::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 4px;
+    border: .5px solid transparent;
+    background: linear-gradient(90deg, #6065D4, #FA5674) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.why-choose-one__progress-list li:nth-child(2) .why-choose-one__progress .bar::before {
+    border: .5px solid transparent;
+    background: linear-gradient(90deg, #8F88FF, #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+}
+
+.why-choose-one__progress .bar-inner {
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 7px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    -webkit-transition: all 1500ms ease;
+    -ms-transition: all 1500ms ease;
+    -o-transition: all 1500ms ease;
+    -moz-transition: all 1500ms ease;
+    transition: all 1500ms ease;
+    z-index: 1;
+}
+
+.why-choose-one__progress-list li:nth-child(2) .why-choose-one__progress .bar-inner {
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+}
+
+.why-choose-one__progress .bar-inner::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #6065D5 0%, #FA5674 100%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.why-choose-one__progress-list li:nth-child(2) .why-choose-one__progress .bar-inner::before {
+    background: linear-gradient(270deg, #8F88FF 0%, #5CB0E9 100%);
+}
+
+.why-choose-one__progress .count-text {
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+    color: var(--techguru-white);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    opacity: 0;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.why-choose-one__progress .bar-inner.counted .count-text {
+    opacity: 1;
+}
+
+.why-choose-one__progress .bar.marb-0 {
+    margin-bottom: 0;
+}
+
+.why-choose-one__btn-and-client-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 21px;
+}
+
+.why-choose-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__btn-box .thm-btn {
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    border-radius: 30px;
+}
+
+.why-choose-one__client-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.why-choose-one__client-img {
+    position: relative;
+    display: block;
+    max-width: 46px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.why-choose-one__client-img img {
+    width: 100%;
+    border: 2px solid var(--techguru-white);
+    border-radius: 50%;
+}
+
+.why-choose-one__client-content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.why-choose-one__client-content h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--techguru-white);
+}
+
+.why-choose-one__client-content span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--techguru-base);
+}
+
+.why-choose-one__right {
+    position: relative;
+    display: block;
+    margin-left: 70px;
+}
+
+.why-choose-one__img {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__img img {
+    width: 100%;
+}
+
+.why-choose-one__shape-1 {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+.why-choose-one__shape-1 img {
+    width: auto;
+}
+
+.why-choose-one__shape-2 {
+    position: absolute;
+    left: -110px;
+    bottom: 170px;
+}
+
+.why-choose-one__shape-2 img {
+    width: auto;
+}
+
+/*--------------------------------------------------------------
+# Why Choose Two
+--------------------------------------------------------------*/
+.why-choose-two {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 140px 0 106px;
+    z-index: 1;
+}
+
+.why-choose-two__shape-1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: .10;
+    z-index: -1;
+}
+
+.why-choose-two__shape-1 img {
+    width: auto;
+}
+
+.why-choose-two__shape-2 {
+    position: absolute;
+    left: -13.8%;
+    right: 83.7%;
+    top: -20.12%;
+    bottom: 8.03%;
+    opacity: 0.4;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, #6669D8 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+.why-choose-two__shape-3 {
+    position: absolute;
+    left: 66.41%;
+    right: -16.51%;
+    top: -0.27%;
+    bottom: -11.82%;
+    opacity: 0.5;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(250, 86, 116, 0.63) 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+.why-choose-two__left {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.why-choose-two__img {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.why-choose-two__img::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: rgb(11, 25, 44);
+    background: linear-gradient(0deg, rgba(11, 25, 44, 1) 23%, rgba(11, 25, 44, 0) 100%);
+    z-index: 1;
+}
+
+.why-choose-two__img img {
+    width: 100%;
+}
+
+.why-choose-two__right {
+    position: relative;
+    display: block;
+}
+
+.why-choose-two__right .section-title {
+    margin-bottom: 22px;
+}
+
+.why-choose-two__points {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+}
+
+.why-choose-two__points li {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.why-choose-two__points li+li {
+    margin-top: 25px;
+}
+
+.why-choose-two__points li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    top: 18px;
+    z-index: 1;
+}
+
+.why-choose-two__points li .icon:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background: linear-gradient(90deg, #8F88FF, #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: .20;
+    z-index: -1;
+}
+
+.why-choose-two__points li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    color: var(--techguru-white);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
+
+.why-choose-two__points li:hover .icon span {
+    transform: scale(0.9);
+}
+
+.why-choose-two__points li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.why-choose-two__points li .content h4 {
+    font-size: 24px;
+    color: var(--techguru-white);
+    font-weight: 500;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------
+# Why Choose Three
+--------------------------------------------------------------*/
+.why-choose-three {
+    position: relative;
+    display: block;
+    background-color: var(--techguru-black);
+    padding: 140px 0 0;
+    z-index: 1;
+}
+
+.why-choose-three__bg-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .20;
+    height: 477px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    z-index: -1;
+}
+
+.why-choose-three::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(var(--techguru-white-rgb), 0.05);
+    z-index: -1;
+}
+
+.why-choose-three__shape-1 {
+    position: absolute;
+    left: -13.12%;
+    right: 63.02%;
+    top: 18.3%;
+    bottom: -29.52%;
+    opacity: .30;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, #6669D8 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+.why-choose-three__shape-2 {
+    position: absolute;
+    left: 46.41%;
+    right: 3.49%;
+    top: 14.16%;
+    bottom: -25.38%;
+    opacity: .50;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(250, 86, 116, 0.63) 0%, rgba(7, 12, 20, 0) 100%);
+}
+
+.why-choose-three__single-left {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+.why-choose-three__single {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.why-choose-three__icon {
+    position: relative;
+    display: inline-block;
+}
+
+.why-choose-three__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 57px;
+    color: var(--techguru-base);
+}
+
+.why-choose-three__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--techguru-white);
+    margin: 23px 0 6px;
+}
+
+.why-choose-three__bdr {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 0 auto;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+}
+
+.why-choose-three__text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 8px;
+}
+
+.why-choose-three__img {
+    position: relative;
+    display: block;
+    margin-left: 77px;
+    margin-right: 78px;
+}
+
+.why-choose-three__img img {
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

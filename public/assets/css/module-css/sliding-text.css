@@ -1,0 +1,252 @@
+/*--------------------------------------------------------------
+# Sliding Text One
+--------------------------------------------------------------*/
+.sliding-text {
+    position: relative;
+    display: block;
+    background: linear-gradient(270deg, #FF3C5F 0%, #565CE6 100%);
+    padding: 24px 0 24px;
+    z-index: 2;
+}
+
+.sliding-text__wrap {
+    position: relative;
+    display: block;
+}
+
+.sliding-text__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+.sliding-text__list li {
+    position: relative;
+    display: flex;
+    float: left;
+}
+
+.sliding-text__title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--techguru-white);
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    font-family: var(--techguru-font-two);
+    font-style: normal;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: linear-gradient(266.69deg, rgba(255, 255, 255, 0.2) 2.9%, rgba(255, 255, 255, 0) 96.45%);
+    border-radius: 40px;
+    padding: 20px 32px 20px;
+    z-index: 1;
+}
+
+.sliding-text__title::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #FFD25D, rgba(255, 210, 93, 0.01)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+.sliding-text__list li span {
+    position: relative;
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background: linear-gradient(-90deg, #FFFFFF, rgba(255, 255, 255, 0.01)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------------------
+# Sliding Text Two
+--------------------------------------------------------------*/
+.sliding-text-two__wrap {
+    position: relative;
+    display: block;
+    padding-top: 100px;
+}
+
+.sliding-text-two__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+.sliding-text-two__list li {
+    position: relative;
+    display: flex;
+    float: left;
+    margin-left: 12px;
+}
+
+.sliding-text-two__title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--techguru-white);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    font-family: var(--techguru-font-two);
+    font-style: normal;
+    text-transform: uppercase;
+    border-radius: 40px;
+    padding: 11px 28px 11px;
+    z-index: 1;
+}
+
+.sliding-text-two__title::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, rgba(143, 136, 255, 0.30), rgba(92, 176, 233, 0.10)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+/*--------------------------------------------------------------
+# Sliding Text Three
+--------------------------------------------------------------*/
+.sliding-text-three {
+    position: relative;
+    display: block;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    padding: 16px 0 16px;
+    z-index: 2;
+}
+
+.sliding-text-three__wrap {
+    position: relative;
+    display: block;
+}
+
+.sliding-text-three__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+.sliding-text-three__list li {
+    position: relative;
+    display: flex;
+    float: left;
+}
+
+.sliding-text-three__title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--techguru-white);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: var(--techguru-font-two);
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sliding-text-three__title:before {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    color: var(--techguru-base);
+    white-space: nowrap;
+    content: attr(data-hover);
+    transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
+}
+
+.sliding-text-three__list li:hover .sliding-text-three__title:before {
+    width: 100%;
+}
+
+.sliding-text-three__list li span {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    color: var(--techguru-base);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

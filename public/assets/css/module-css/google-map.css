@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Google Map Two
+--------------------------------------------------------------*/
+.google-map-one {
+    position: relative;
+    display: block;
+    padding: 140px 0 140px;
+    z-index: 1;
+}
+
+.google-map__one {
+    position: relative;
+    display: block;
+    border: none;
+    border-radius: 40px;
+    height: 700px;
+    width: 100%;
+}

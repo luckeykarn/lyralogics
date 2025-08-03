@@ -1,0 +1,313 @@
+/*--------------------------------------------------------------
+# Counter One
+--------------------------------------------------------------*/
+.counter-one {
+    position: relative;
+    display: block;
+    padding: 140px 0 0;
+    z-index: 1;
+}
+
+.counter-one__wrap {
+    position: relative;
+    display: block;
+    margin: 0 60px 0;
+    overflow: hidden;
+    padding: 80px 0 65px;
+    border-radius: 24px;
+    background-color: var(--techguru-black);
+    z-index: 1;
+}
+
+.counter-one__wrap::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 24px;
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.11)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+.counter-one__wrap .section-title {
+    margin-bottom: 78px;
+}
+
+.counter-one__bg-shape {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    opacity: .80;
+    width: calc((100% - 360px) / 2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: lighten;
+    z-index: -1;
+}
+
+.counter-one__shape-1 {
+    position: absolute;
+    top: -90px;
+    right: -50px;
+    width: 388px;
+    height: 388px;
+    background: linear-gradient(270deg, rgba(92, 176, 233, 0.02) 0%, rgba(143, 136, 255, 0.1) 100%);
+    transform: rotate(-125.62deg);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.counter-one__shape-2 {
+    position: absolute;
+    width: 294px;
+    height: 294px;
+    right: -42px;
+    top: -60px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, rgba(92, 176, 233, 0.02) 0%, rgba(143, 136, 255, 0.05) 100%);
+    transform: rotate(-5.91deg);
+    z-index: -1;
+}
+
+.counter-one__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 13px;
+}
+
+.counter-one__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #08111F;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.counter-one__icon:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: linear-gradient(-90deg, rgba(92, 176, 233, 0.20), rgba(143, 136, 255, 0.40)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+.counter-one__icon::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    opacity: 0;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.counter-one__single:hover .counter-one__icon::after {
+    opacity: 1;
+}
+
+.counter-one__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 36px;
+    background: linear-gradient(90deg, #6065D4 0%, #FA5674 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
+
+.counter-one__single:hover .counter-one__icon span {
+    transform: scale(0.9);
+    color: var(--techguru-white);
+    background: none;
+    -webkit-background-clip: var(--techguru-white);
+    -webkit-text-fill-color: var(--techguru-white);
+    background-clip: var(--techguru-white);
+    text-fill-color: var(--techguru-white);
+}
+
+.counter-one__content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.counter-one__count-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.counter-one__count-box h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px !important;
+    color: var(--techguru-white);
+    font-family: var(--techguru-font) !important;
+}
+
+.counter-one__count-box span {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--techguru-white);
+    font-family: var(--techguru-font);
+}
+
+.counter-one__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--techguru-white);
+    text-transform: capitalize;
+}
+
+
+/*--------------------------------------------------------------
+# Counter Two
+--------------------------------------------------------------*/
+.counter-two {
+    position: relative;
+    display: block;
+    padding: 58px 0 37px;
+    background: linear-gradient(90deg, #0F1C34 0%, #103B8C 45.5%, #0F1C34 100%);
+    z-index: 1;
+}
+
+.counter-two__bg-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: topBottom 3s ease-in-out infinite;
+    z-index: -1;
+}
+
+.counter-two__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 11px;
+}
+
+.counter-two__icon-inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(270deg, rgba(250, 86, 116, 0.2) 0%, rgba(96, 101, 213, 0.2) 100%);
+    border-radius: 50%;
+}
+
+.counter-two__icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    border-radius: 50%;
+}
+
+.counter-two__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 26px;
+    color: var(--techguru-white);
+}
+
+.counter-two__content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.counter-two__count-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.counter-two__count-box h3 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px !important;
+    font-family: var(--techguru-font) !important;
+    color: var(--techguru-white);
+}
+
+.counter-two__count-box span {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px !important;
+    font-family: var(--techguru-font) !important;
+    color: var(--techguru-white);
+}
+
+.counter-two__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 1px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

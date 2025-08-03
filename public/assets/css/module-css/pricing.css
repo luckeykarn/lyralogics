@@ -1,0 +1,696 @@
+/*--------------------------------------------------------------
+# Pricing One
+--------------------------------------------------------------*/
+.pricing-one {
+    position: relative;
+    display: block;
+    background-color: var(--techguru-black);
+    padding: 140px 0 110px;
+    z-index: 1;
+}
+
+.pricing-one__single {
+    position: relative;
+    display: block;
+    background: linear-gradient(157.36deg, #0C182C 0%, rgba(12, 24, 44, 0.1) 98.82%);
+    border-radius: 40px;
+    padding: 43px 45px 45px;
+    margin-bottom: 30px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pricing-one__single::after {
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(157.36deg, #083174 0%, rgba(12, 24, 44, 0.1) 98.82%);
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+    z-index: -1;
+}
+
+.pricing-one__single.active::after {
+    opacity: 0.8;
+}
+
+.pricing-one__single:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background: linear-gradient(-70deg, rgba(143, 136, 255, .0), #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+.pricing-one__icon {
+    position: absolute;
+    top: 46px;
+    right: 46px;
+    z-index: 2;
+}
+
+.pricing-one__icon img {
+    width: auto;
+}
+
+.pricing-one__sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--techguru-font-two);
+    color: var(--techguru-base);
+    text-transform: uppercase;
+}
+
+.pricing-one__price {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--techguru-white);
+    margin: 14px 0 19px;
+}
+
+.pricing-one__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: var(--techguru-white);
+    padding-bottom: 31px;
+}
+
+.pricing-one__bdr {
+    position: relative;
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 32%, rgba(123, 152, 246, 20) 99%, rgba(143, 136, 255, 1) 100%);
+    margin-bottom: 27px;
+}
+
+.pricing-one__points-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: capitalize;
+}
+
+.pricing-one__points {
+    position: relative;
+    display: block;
+    margin: 23px 0 40px;
+}
+
+.pricing-one__points li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pricing-one__points li+li {
+    margin-top: 20px;
+}
+
+.pricing-one__points li .icon {
+    position: relative;
+    display: inline-block;
+}
+
+.pricing-one__points li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-one__points li:nth-child(4) .icon span {
+    transform: rotate(-45deg);
+    background: linear-gradient(270deg, #C5C8CD 0%, #C5C8CD 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-one__points li:nth-child(5) .icon span {
+    transform: rotate(-45deg);
+    background: linear-gradient(270deg, #C5C8CD 0%, #C5C8CD 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-one__points li p {
+    color: var(--techguru-white);
+}
+
+.pricing-one__points li:nth-child(4) p {
+    color: #C5C8CD;
+}
+
+.pricing-one__points li:nth-child(5) p {
+    color: #C5C8CD;
+}
+
+.pricing-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+.pricing-one__btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none !important;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    color: var(--techguru-white);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 15px 25px 15px;
+    overflow: hidden;
+    border-radius: 14px;
+    transition: all 0.5s linear;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.pricing-one__btn:hover {
+    color: var(--techguru-white);
+}
+
+.pricing-one__btn::after {
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+    z-index: -1;
+}
+
+.pricing-one__btn:hover::after {
+    opacity: 0.8;
+}
+
+
+/*--------------------------------------------------------------
+# Pricing Two
+--------------------------------------------------------------*/
+.pricing-two {
+    position: relative;
+    display: block;
+    padding: 140px 0 140px;
+    background-color: var(--techguru-black);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pricing-two__sec-shape-1 {
+    position: absolute;
+    left: -20.57%;
+    right: 54.64%;
+    top: -7.86%;
+    bottom: 5.58%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(96, 101, 213, 0.66) 0%, rgba(7, 12, 20, 0) 100%);
+    opacity: .40;
+    filter: blur(120px);
+    z-index: -1;
+}
+
+.pricing-two__sec-shape-2 {
+    position: absolute;
+    left: 17.99%;
+    right: 17.99%;
+    top: 0%;
+    bottom: 0.69%;
+    opacity: .30;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, #6669D8 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+.pricing-two__sec-shape-3 {
+    position: absolute;
+    left: 65.31%;
+    right: -36.77%;
+    top: 7.86%;
+    bottom: -18.7%;
+    opacity: .70;
+    filter: blur(120px);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(143, 136, 255, 0.43) 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+.pricing-two__main-tab-box {
+    position: relative;
+    display: block;
+}
+
+.pricing-two__main-tab-box .tab-buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    height: 50px;
+    width: 390px;
+    margin: 0 auto 50px;
+}
+
+.pricing-two__main-tab-box .tab-buttons:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #6065D4, #FA5674) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+.pricing-two__main-tab-box .tab-buttons .tab-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-two__main-tab-box .tab-buttons .tab-btn+.tab-btn {
+    margin-left: 0px;
+}
+
+.pricing-two__main-tab-box .tab-buttons .tab-btn span {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--techguru-white);
+    background-color: transparent;
+    padding: 17px 30px 17px;
+    font-weight: 500;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: all 0.5s linear;
+    z-index: 1;
+}
+
+.pricing-two__main-tab-box .tab-buttons .tab-btn span:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+
+.pricing-two__main-tab-box .tab-buttons .tab-btn.active-btn span:before {
+    height: 100%;
+}
+
+.pricing-two__main-tab-box .tabs-content {
+    position: relative;
+    display: block;
+}
+
+.pricing-two__main-tab-box .tabs-content .tab {
+    position: relative;
+    display: none;
+    -webkit-transform: translateX(35px);
+    -ms-transform: translateX(35px);
+    transform: translateX(35px);
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+    z-index: 10;
+}
+
+.pricing-two__main-tab-box .tabs-content .tab.active-tab {
+    display: block;
+    margin-top: 0px;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.pricing-two__inner {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.pricing-two__inner .row {
+    --bs-gutter-x: 0px;
+}
+
+.pricing-two__single {
+    position: relative;
+    display: block;
+    background-color: #1D253F;
+    border-radius: 40px;
+    border: 1px solid rgba(var(--techguru-white-rgb), .10);
+    padding: 40px 40px 40px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pricing-two__single-shape-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.pricing-two__single-shape-1 img {
+    width: auto;
+}
+
+.pricing-two__single-shape-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.10;
+    mix-blend-mode: screen;
+    z-index: -1;
+}
+
+.pricing-two__single-shape-2 img {
+    width: auto;
+}
+
+.pricing-two__shape-1 {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.pricing-two__shape-1 img {
+    width: auto;
+}
+
+.pricing-two__shape-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.pricing-two__shape-2 img {
+    width: auto;
+}
+
+.pricing-two__shape-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.pricing-two__shape-3 img {
+    width: auto;
+}
+
+.pricing-two__single-1 {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 50px;
+}
+
+.pricing-two__single-3 {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 50px;
+}
+
+.pricing-two__single-2 {
+    border: 0;
+    background: linear-gradient(360deg, #10183C 0%, #14235C 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+}
+
+.pricing-two__single-3 {
+    border-left: 0;
+}
+
+.pricing-two__sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--techguru-font-two);
+    color: var(--techguru-base);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.pricing-two__price {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--techguru-white);
+    margin: 14px 0 19px;
+    text-align: center;
+}
+
+.pricing-two__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: var(--techguru-white);
+    text-align: center;
+}
+
+.pricing-two__btn-box {
+    position: relative;
+    display: block;
+    margin: 31px 0 26px;
+}
+
+.pricing-two__btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none !important;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    color: var(--techguru-white);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 15px 25px 15px;
+    overflow: hidden;
+    border-radius: 14px;
+    transition: all 0.5s linear;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.pricing-two__btn:hover {
+    color: var(--techguru-white);
+}
+
+.pricing-two__btn::after {
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+    z-index: -1;
+}
+
+.pricing-two__btn:hover::after {
+    opacity: 0.8;
+}
+
+.pricing-two__points-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: var(--techguru-base);
+}
+
+.pricing-two__points {
+    position: relative;
+    display: block;
+    margin: 23px 0 0px;
+}
+
+.pricing-two__points li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pricing-two__points li+li {
+    margin-top: 20px;
+}
+
+.pricing-two__points li .icon {
+    position: relative;
+    display: inline-block;
+}
+
+.pricing-two__points li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-two__single-2 .pricing-two__points li:nth-child(3) .icon span {
+    transform: rotate(0);
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-two__points li:nth-child(3) .icon span {
+    transform: rotate(-45deg);
+    background: linear-gradient(270deg, #C5C8CD 0%, #C5C8CD 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-two__points li:nth-child(4) .icon span {
+    transform: rotate(-45deg);
+    background: linear-gradient(270deg, #C5C8CD 0%, #C5C8CD 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-two__points li:nth-child(5) .icon span {
+    transform: rotate(-45deg);
+    background: linear-gradient(270deg, #C5C8CD 0%, #C5C8CD 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-two__points li p {
+    color: var(--techguru-white);
+}
+
+.pricing-two__points li:nth-child(4) p {
+    color: #C5C8CD;
+}
+
+.pricing-two__points li:nth-child(5) p {
+    color: #C5C8CD;
+}
+
+.pricing-two__unlimited-offer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

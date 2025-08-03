@@ -1,0 +1,211 @@
+/*--------------------------------------------------------------
+# Banner One
+--------------------------------------------------------------*/
+.banner-one {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 306px 0 0px;
+    z-index: 1;
+}
+
+.banner-one__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.09;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.banner-one__shape-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: -1;
+}
+
+.banner-one__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.banner-one__title {
+    font-size: 60px;
+    color: var(--techguru-white);
+    line-height: 1.2em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner-one__title span {
+    color: var(--techguru-base);
+}
+
+.banner-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+.banner-one__btn-box .thm-btn {
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+}
+
+.banner-one__img-box {
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.banner-one__img {
+    position: relative;
+    display: block;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto 0;
+}
+
+.banner-one__img img {
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.banner-one__video-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 1;
+}
+
+.banner-one__video-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--techguru-white);
+    border-radius: 50%;
+    margin: 0 auto 0;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.banner-one__video-icon::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    z-index: -1;
+}
+
+.banner-one__video-icon:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background: linear-gradient(90deg, #8F88FF, #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: .20;
+    z-index: -1;
+}
+
+.banner-one__video-icon:hover {
+    background-color: var(--techguru-base);
+    color: var(--techguru-black);
+}
+
+.banner-one__video-link .ripple,
+.banner-one__video-icon .ripple:before,
+.banner-one__video-icon .ripple:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--techguru-white-rgb), 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(var(--techguru-white-rgb), 0.6);
+    -webkit-box-shadow: 0 0 0 0 rgba(var(--techguru-white-rgb), 0.6);
+    box-shadow: 0 0 0 0 rgba(var(--techguru-white-rgb), 0.6);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+}
+
+.banner-one__video-icon .ripple:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+    position: absolute;
+}
+
+.banner-one__video-icon .ripple:after {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

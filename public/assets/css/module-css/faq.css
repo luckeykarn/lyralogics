@@ -1,0 +1,443 @@
+/*--------------------------------------------------------------
+# Faq One
+--------------------------------------------------------------*/
+.faq-one {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: var(--techguru-black);
+    padding: 140px 0 140px;
+    z-index: 1;
+}
+
+.faq-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(var(--techguru-white-rgb), 0.05);
+    z-index: -1;
+}
+
+.faq-one__shape-1 {
+    position: absolute;
+    top: -100px;
+    left: -70px;
+    width: 730px;
+    height: 765px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(102, 105, 216, 0.62) 0%, rgba(7, 12, 20, 0) 100%);
+    opacity: 0.4;
+    filter: blur(120px);
+    z-index: -1;
+}
+
+.faq-one__shape-2 {
+    position: absolute;
+    bottom: -255px;
+    right: 100px;
+    width: 730px;
+    height: 765px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(216, 102, 195, 0.62) 0%, rgba(7, 12, 20, 0) 100%);
+    opacity: 0.4;
+    filter: blur(120px);
+    z-index: -1;
+}
+
+.faq-one__left {
+    position: relative;
+    display: block;
+}
+
+.faq-one__img-box {
+    position: relative;
+    display: block;
+    margin-right: 252px;
+}
+
+.faq-one__img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.faq-one__img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.faq-one__experience-box {
+    position: absolute;
+    bottom: 30px;
+    right: -70px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    max-width: 180px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 30px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.faq-one__experience-year {
+    position: relative;
+    display: block;
+}
+
+.faq-one__experience-year h2 {
+    font-size: 50px;
+    color: var(--techguru-white);
+    font-weight: 700;
+    line-height: 1.2em !important;
+    font-family: var(--techguru-font) !important;
+}
+
+.faq-one__experience-text {
+    color: var(--techguru-white);
+    font-weight: 500;
+}
+
+.faq-one__right {
+    position: relative;
+    display: block;
+}
+
+.faq-one .faq-one-accrodion .accrodion {
+    position: relative;
+    display: block;
+    border: 1px solid rgba(var(--techguru-white-rgb), .15);
+    background: #08111F;
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-one .faq-one-accrodion .accrodion.active {
+    border: 1px solid rgba(var(--techguru-white-rgb), .15);
+    background: var(--techguru-black);
+}
+
+.faq-one .faq-one-accrodion .accrodion-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 25px 25px 25px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.faq-one .faq-one-accrodion .accrodion-title h4 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--techguru-white);
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-one .faq-one-accrodion .accrodion+.accrodion {
+    margin-top: 20px;
+}
+
+.faq-one .faq-one-accrodion .accrodion-title h4::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--techguru-white);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    line-height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(var(--techguru-white-rgb), .10);
+}
+
+.faq-one .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    content: "\f107";
+    color: var(--techguru-white);
+    background-color: #08111F;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-one .faq-one-accrodion .accrodion-content {
+    position: relative;
+    padding-bottom: 28px;
+    margin-top: -10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+}
+
+.faq-one .faq-one-accrodion .accrodion-content p {
+    margin: 0;
+}
+
+
+/*--------------------------------------------------------------
+# FAQ Two
+--------------------------------------------------------------*/
+.faq-two {
+    position: relative;
+    display: block;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.05) 100%);
+    padding: 140px 0 140px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.faq-two__shape-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .70;
+    z-index: -1;
+}
+
+.faq-two__shape-1 img {
+    width: auto;
+}
+
+.faq-two__shape-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .70;
+    z-index: -1;
+}
+
+.faq-two__shape-2 img {
+    width: auto;
+}
+
+.faq-two__left {
+    position: relative;
+    display: block;
+}
+
+.faq-two__left .section-title {
+    margin-bottom: 24px;
+}
+
+.faq-two__bdr {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: rgba(var(--techguru-white-rgb), .10);
+    margin: 23px 0 17px;
+}
+
+.faq-two__contact {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-two__contact .icon {
+    position: relative;
+    display: inline-block;
+}
+
+.faq-two__contact .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 45px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.faq-two__contact .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.faq-two__contact .content span {
+    font-size: 20px;
+}
+
+.faq-two__contact .content p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 3px;
+}
+
+.faq-two__contact .content p a {
+    color: var(--techguru-white);
+}
+
+.faq-two__btn-box {
+    position: relative;
+    display: block;
+    margin-top: 23px;
+}
+
+.faq-two__right {
+    position: relative;
+    display: block;
+}
+
+.faq-two .faq-one-accrodion .accrodion {
+    position: relative;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.faq-two .faq-one-accrodion .accrodion.active {
+    background-color: #6065D4;
+}
+
+.faq-two .faq-one-accrodion .accrodion:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: linear-gradient(-90deg, rgba(92, 176, 233, .50), rgba(61, 114, 252, .50)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+.faq-two .faq-one-accrodion .accrodion.active:before {
+    border: 1px solid transparent;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, .20), rgba(255, 255, 255, .20)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.faq-two .faq-one-accrodion .accrodion-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 23px 35px 24px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    padding-right: 25px;
+}
+
+.faq-two .faq-one-accrodion .accrodion-title h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--techguru-white);
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-two .faq-one-accrodion .accrodion.active .accrodion-title h4 {
+    color: var(--techguru-white);
+}
+
+.faq-two .faq-one-accrodion .accrodion+.accrodion {
+    margin-top: 25px;
+}
+
+.faq-two .faq-one-accrodion .accrodion-title h4::before {
+    content: "\e916";
+    font-family: 'icomoon' !important;
+    font-size: 12px;
+    color: var(--techguru-white);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    line-height: 12px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+}
+
+.faq-two .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    content: "\e91d";
+    color: var(--techguru-white);
+}
+
+.faq-two .faq-one-accrodion .accrodion-content {
+    position: relative;
+    padding-bottom: 31px;
+    padding-left: 35px;
+    padding-top: 19px;
+    padding-right: 35px;
+    border-top: 1px dashed rgba(var(--techguru-white-rgb), .40);
+}
+
+.faq-two .faq-one-accrodion .accrodion-content p {
+    font-weight: 500;
+    color: var(--techguru-white);
+}
+
+.faq-two .accrodion-content__text-2 {
+    margin-top: 16px;
+}
+
+/*--------------------------------------------------------------
+# FAQ Page
+--------------------------------------------------------------*/
+.faq-page {
+    position: relative;
+    display: block;
+    padding: 140px 0 140px;
+    background: var(--techguru-black);
+    z-index: 1;
+}
+
+.faq-page .container {
+    max-width: 1100px;
+}
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

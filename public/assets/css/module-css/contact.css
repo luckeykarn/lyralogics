@@ -1,0 +1,584 @@
+/*--------------------------------------------------------------
+# Contact One
+--------------------------------------------------------------*/
+.contact-one {
+    position: relative;
+    display: block;
+    padding: 140px 0 140px;
+    background-color: #0b192c;
+    z-index: 1;
+}
+
+.contact-one__bg-shape {
+    position: absolute;
+    height: 825px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    z-index: -1;
+}
+
+.contact-one__left {
+    position: relative;
+    display: block;
+    background: #38445A;
+    box-shadow: 0px 11px 38px rgba(143, 136, 255, 0.06);
+    border-radius: 20px;
+    padding: 40px 30px 30px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.contact-one__left:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, rgba(92, 176, 233, 0.04), rgba(143, 136, 255, 0.05)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+.contact-one__from-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--techguru-white);
+    margin-bottom: 46px;
+}
+
+.contact-one__form {
+    position: relative;
+    display: block;
+}
+
+.contact-one__input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 31px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.contact-one__input-box:hover:before {
+    background: linear-gradient(90deg, #6065D4, #FA5674) border-box;
+}
+
+.contact-one__input-box:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, rgba(92, 176, 233, 0.20), rgba(143, 136, 255, 0.30)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+}
+
+.contact-one__input-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 7px;
+    color: #C5C8CD;
+}
+
+.contact-one__input-box input[type="text"],
+.contact-one__input-box input[type="email"] {
+    height: 52px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    padding-right: 45px;
+    outline: none;
+    font-size: 16px;
+    color: #B3B4B7;
+    display: block;
+    font-weight: 400;
+    border-radius: 16px;
+    line-height: 52px;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.contact-one__input-box .select-box {
+    width: 100%;
+    z-index: 99;
+}
+
+.contact-one__input-box .nice-select .list {
+    z-index: 999999;
+}
+
+.contact-one__input-box .nice-select {
+    height: 52px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    font-size: 16px;
+    color: #B3B4B7;
+    font-weight: 400;
+    border-radius: 16px;
+    line-height: 52px;
+    display: block;
+    float: none;
+    z-index: 3;
+}
+
+.contact-one__input-box .nice-select:after {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid #B3B4B7;
+    border-right: 2px solid #B3B4B7;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.contact-one__input-box .nice-select .option {
+    color: var(--techguru-black);
+}
+
+.contact-one__input-box .nice-select .option.selected {
+    font-weight: 500;
+}
+
+.contact-one__input-box .nice-select .option:hover,
+.contact-one__input-box .nice-select .option.focus,
+.contact-one__input-box .nice-select .option.selected.focus {
+    color: var(--techguru-white);
+}
+
+.contact-one__input-box textarea {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 45px;
+    outline: none;
+    font-size: 16px;
+    color: var(--techguru-gray);
+    display: block;
+    font-weight: 400;
+    border-radius: 16px;
+    margin-bottom: 0;
+}
+
+.contact-one__input-box.text-message-box {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.contact-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+.contact-one__btn-box .thm-btn {
+    border: none;
+}
+
+.contact-one__input-icon {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+}
+
+.contact-one__input-icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #B3B4B7;
+}
+
+.contact-one__left-shape-1 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    right: -10px;
+    bottom: -57px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.contact-one__left-shape-2 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    right: -54px;
+    bottom: -28px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    opacity: 0.1;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.contact-one__right {
+    position: relative;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.contact-one__right .section-title {
+    margin-bottom: 24px;
+}
+
+.contact-one__list {
+    position: relative;
+    display: block;
+    max-width: 406px;
+    width: 100%;
+    margin-top: 43px;
+}
+
+.contact-one__list li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    border-bottom: 1px solid rgba(var(--techguru-white-rgb), .24);
+    padding-bottom: 31px;
+}
+
+.contact-one__list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.contact-one__list li+li {
+    margin-top: 27px;
+}
+
+.contact-one__list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    border-radius: 12px;
+    top: 5px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.contact-one__list li .icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 12px;
+    width: 50%;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    z-index: -1;
+}
+
+.contact-one__list li:hover .icon:before {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.contact-one__list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    color: var(--techguru-white);
+}
+
+.contact-one__list li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.contact-one__list li .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--techguru-white);
+    margin-bottom: 4px;
+}
+
+.contact-one__list li .content p a {
+    color: var(--techguru-gray);
+}
+
+.contact-one__list li .content p a:hover {
+    color: var(--techguru-base);
+}
+
+
+/*--------------------------------------------------------------
+# Contact Two
+--------------------------------------------------------------*/
+.contact-two {
+    position: relative;
+    display: block;
+    background-color: #101D30;
+    padding: 140px 0 140px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.contact-two__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: calc((100% - 340px) / 4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    z-index: 1;
+}
+
+.contact-two__shape-1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    mix-blend-mode: lighten;
+    z-index: -1;
+}
+
+.contact-two__shape-1 img {
+    width: auto;
+}
+
+.contact-two__shape-2 {
+    position: absolute;
+    left: 8.02%;
+    right: 41.88%;
+    top: -5.75%;
+    bottom: -5.73%;
+    filter: blur(120px);
+    opacity: .30;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(96, 101, 213, 0.75) 0%, rgba(7, 12, 20, 0) 100%);
+    z-index: -1;
+}
+
+
+.contact-two__left {
+    position: relative;
+    display: block;
+    margin-left: 150px;
+}
+
+.contact-two__left .section-title {
+    margin-bottom: 22px;
+}
+
+.contact-two__contact-list {
+    position: relative;
+    display: block;
+    max-width: 410px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contact-two__contact-list li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    gap: 20px;
+    padding: 19px 15px 13px;
+}
+
+.contact-two__contact-list li+li {
+    margin-top: 12px;
+}
+
+.contact-two__contact-list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+}
+
+.contact-two__contact-list li .icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    border-radius: 16px;
+    z-index: -1;
+}
+
+.contact-two__contact-list li .icon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    border-radius: 16px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.contact-two__contact-list li:hover .icon::after {
+    opacity: 1;
+}
+
+.contact-two__contact-list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--techguru-white);
+}
+
+.contact-two__contact-list li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.contact-two__contact-list li .content span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-two__contact-list li .content p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: var(--techguru-white);
+    margin-top: 1px;
+}
+
+.contact-two__contact-list li .content p a {
+    color: var(--techguru-white);
+}
+
+.contact-two__contact-list li .content p a:hover {
+    color: var(--techguru-base);
+}
+
+.contact-two__right {
+    position: relative;
+    display: block;
+    background-color: rgba(var(--techguru-white-rgb), 0.05);
+    padding: 35px 35px 35px;
+    border-radius: 20px;
+}
+
+.contact-two__sliding-text-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+.contact-two__sliding-text-list li {
+    position: relative;
+    display: flex;
+    float: left;
+    margin-left: 60px;
+}
+
+.contact-two__sliding-text-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 200px;
+    line-height: 251px;
+    font-weight: 400;
+    font-family: var(--techguru-font-two);
+    font-style: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 67.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/
