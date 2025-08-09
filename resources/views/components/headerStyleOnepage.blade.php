@@ -44,7 +44,7 @@
                             <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                             <ul class="main-menu__list one-page-scroll-menu">
                                 <li class="dropdown megamenu scrollToLink">
-                                    <a href="#home">Home </a>
+                                    <a href="#home">Homessss </a>
                                     <ul>
                                         <li>
 
@@ -69,14 +69,14 @@
                                                                                 <span class="icon-right-arrow"></span>
                                                                             </a>
                                                                         </div>
-                                                                        <!-- /.home-showcase__buttons -->
-                                                                    </div><!-- /.home-showcase__image -->
+                                                                       
+                                                                    </div>
                                                                     <h3 class="home-showcase__title">Home
                                                                         Page
                                                                         01</h3>
-                                                                    <!-- /.home-showcase__title -->
-                                                                </div><!-- /.home-showcase__item -->
-                                                            </div><!-- /.col-lg-3 -->
+                                                                  
+                                                                </div>
+                                                            </div>
                                                             <div class="col-lg-4">
                                                                 <div class="home-showcase__item">
                                                                     <div class="home-showcase__image">
@@ -94,14 +94,14 @@
                                                                                 <span class="icon-right-arrow"></span>
                                                                             </a>
                                                                         </div>
-                                                                        <!-- /.home-showcase__buttons -->
-                                                                    </div><!-- /.home-showcase__image -->
+                                                                       
+                                                                    </div>
                                                                     <h3 class="home-showcase__title">Home
                                                                         Page
                                                                         02
-                                                                    </h3><!-- /.home-showcase__title -->
-                                                                </div><!-- /.home-showcase__item -->
-                                                            </div><!-- /.col-lg-3 -->
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
                                                             <div class="col-lg-4">
                                                                 <div class="home-showcase__item">
                                                                     <div class="home-showcase__image">
@@ -119,20 +119,20 @@
                                                                                 <span class="icon-right-arrow"></span>
                                                                             </a>
                                                                         </div>
-                                                                        <!-- /.home-showcase__buttons -->
-                                                                    </div><!-- /.home-showcase__image -->
+                                                                       
+                                                                    </div>
                                                                     <h3 class="home-showcase__title">Home
                                                                         Page
                                                                         03
-                                                                    </h3><!-- /.home-showcase__title -->
-                                                                </div><!-- /.home-showcase__item -->
-                                                            </div><!-- /.col-lg-3 -->
+                                                                    </h3>
+                                                                </div>
+                                                            </div>   
 
 
-                                                        </div><!-- /.row -->
-                                                    </div><!-- /.home-showcase__inner -->
+                                                        </div>
+                                                    </div>
 
-                                                </div><!-- /.container -->
+                                                </div>
                                             </section>
 
                                         </li>
