@@ -1,5 +1,5 @@
 <ul class="main-menu__list">
-    <li class="dropdown megamenu @if (request()->is(['index', 'index-one-page', 'index2', 'index2-one-page', 'index3', 'index3-one-page'])) current @endif">
+    <!-- <li class="dropdown megamenu @if (request()->is(['index', 'index-one-page', 'index2', 'index2-one-page', 'index3', 'index3-one-page'])) current @endif">
         <a href="#">Home </a>
         <ul>
             <li>
@@ -25,14 +25,14 @@
                                                     <span class="icon-right-arrow"></span>
                                                 </a>
                                             </div>
-                                            <!-- /.home-showcase__buttons -->
-                                        </div><!-- /.home-showcase__image -->
+                                           
+                                        </div>
                                         <h3 class="home-showcase__title">Home
                                             Page
                                             01</h3>
-                                        <!-- /.home-showcase__title -->
-                                    </div><!-- /.home-showcase__item -->
-                                </div><!-- /.col-lg-3 -->
+                                       
+                                    </div>
+                                </div>
                                 <div class="col-lg-4">
                                     <div class="home-showcase__item">
                                         <div class="home-showcase__image">
@@ -50,14 +50,14 @@
                                                     <span class="icon-right-arrow"></span>
                                                 </a>
                                             </div>
-                                            <!-- /.home-showcase__buttons -->
-                                        </div><!-- /.home-showcase__image -->
+                                           
+                                        </div>
                                         <h3 class="home-showcase__title">Home
                                             Page
                                             02
-                                        </h3><!-- /.home-showcase__title -->
-                                    </div><!-- /.home-showcase__item -->
-                                </div><!-- /.col-lg-3 -->
+                                        </h3>
+                                    </div>
+                                </div>
                                 <div class="col-lg-4">
                                     <div class="home-showcase__item">
                                         <div class="home-showcase__image">
@@ -75,29 +75,29 @@
                                                     <span class="icon-right-arrow"></span>
                                                 </a>
                                             </div>
-                                            <!-- /.home-showcase__buttons -->
-                                        </div><!-- /.home-showcase__image -->
+                                           
+                                        </div>
                                         <h3 class="home-showcase__title">Home
                                             Page
                                             03
-                                        </h3><!-- /.home-showcase__title -->
-                                    </div><!-- /.home-showcase__item -->
-                                </div><!-- /.col-lg-3 -->
+                                        </h3>
+                                    </div>
+                                </div>
 
 
-                            </div><!-- /.row -->
-                        </div><!-- /.home-showcase__inner -->
+                            </div>
+                        </div>
 
-                    </div><!-- /.container -->
+                    </div>
                 </section>
 
             </li>
         </ul>
-    </li>
+    </li> -->
     <li @if (request()->is(['about'])) class="current" @endif>
         <a href="{{ route('about') }}">About</a>
     </li>
-    <li class="dropdown @if (request()->is([
+    <!-- <li class="dropdown @if (request()->is([
             'team',
             'team-carousel',
             'team-details',
@@ -160,8 +160,8 @@
             <li><a href="{{ route('sign-up') }}">Sign Up</a></li>
             <li><a href="{{ route('login') }}">Login</a></li>
         </ul>
-    </li>
-    <li class="dropdown @if (request()->is(['blog', 'blog-carousel', 'blog-list', 'blog-list-2', 'blog-details'])) current @endif">
+    </li> -->
+    <!-- <li class="dropdown @if (request()->is(['blog', 'blog-carousel', 'blog-list', 'blog-list-2', 'blog-details'])) current @endif">
         <a href="#">Blog</a>
         <ul class="shadow-box">
             <li><a href="{{ route('blog') }}">Blog</a></li>
@@ -170,7 +170,7 @@
             <li><a href="{{ route('blog-list-2') }}">Blog List Two</a></li>
             <li><a href="{{ route('blog-details') }}">Blog Details</a></li>
         </ul>
-    </li>
+    </li> -->
     <li @if (request()->is(['contact'])) class="current" @endif>
         <a href="{{ route('contact') }}">Contact</a>
     </li>
