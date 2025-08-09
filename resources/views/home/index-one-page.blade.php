@@ -1,5 +1,5 @@
 @extends('layouts.layout1onepage')
-@section('title', 'Home One || LyraLogics || IT Solutions & Technology Laravel Template')
+@section('title', 'Home One || LyraLogics || IT Solutions & Technology  ')
 
 
 @section('content')
@@ -1846,7 +1846,7 @@
                                     </div>
                                     <div class="content">
                                         <span>Contact US</span>
-                                        <p><a href="tel:9900567780"> 99 (00) 567 780</a></p>
+                                        <p><a href="tel:6785236569"> +1 (678) 523 6569</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -1855,7 +1855,7 @@
                                     </div>
                                     <div class="content">
                                         <span>Our Address</span>
-                                        <p>1629 N. Dixie Avenue, Kentucky, 42701</p>
+                                        <p>4721 Rosebud Drive GA, Snellville , 30039</p>
                                     </div>
                                 </li>
                             </ul>

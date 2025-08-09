@@ -1,5 +1,5 @@
 @extends('layouts.layout4')
-@section('title', 'Services || LyraLogics || IT Solutions & Technology Laravel Template')
+@section('title', 'Services || LyraLogics || IT Solutions & Technology  ')
 
 
 @section('content')
@@ -322,8 +322,8 @@
                                     </div>
                                     <div class="content">
                                         <h4>Location</h4>
-                                        <p>1629 N. Dixie Avenue,
-                                            <br> Kentucky, 42701</p>
+                                        <p>4721 Rosebud Drive,
+                                            <br> GA, Snellville , 30039</p>
                                     </div>
                                 </li>
                                 <li>
@@ -333,7 +333,7 @@
                                     <div class="content">
                                         <h4>Email Us</h4>
                                         <p><a href="mailto:info@domain.com">info@domain.com</a></p>
-                                        <p><a href="mailto:support@domain.com">support@domain.com</a></p>
+                                        <p><a href="mailto:ceo@lyralogics.com">ceo@lyralogics.com</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -342,8 +342,8 @@
                                     </div>
                                     <div class="content">
                                         <h4>Contact</h4>
-                                        <p>Tel: <a href="tel:1200456789000"> 12 (00) 456 7890 00</a></p>
-                                        <p>Mob: <a href="tel:9900567780"> 99 (00) 567 780</a></p>
+                                        <p>Tel: <a href="tel:6785236569"> +1 (678) 523 6569</a></p>
+                                        <p>Mob: <a href="tel:6785236569"> +1 (678) 523 6569</a></p>
                                     </div>
                                 </li>
                             </ul>

@@ -1,5 +1,5 @@
 @extends('layouts.layout4')
-@section('title', '404 Error || LyraLogics || IT Solutions & Technology Laravel Template')
+@section('title', '404 Error || LyraLogics || IT Solutions & Technology  ')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/error.css') }}">
 @endpush

@@ -59,8 +59,7 @@
                                             <p class="site-footer-two__contact-info">
                                                 <a href="mailto:info@domain.com"
                                                     class="site-footer-two__contact-mail">info@domain.com</a>
-                                                <a href="tel:9900567780" class="site-footer-two__contact-phone">+99 (00)
-                                                    567 780</a>
+                                                <a href="tel:6785236569" class="site-footer-two__contact-phone">+1 (678) 523-6569</a>
                                             </p>
                                         </div>
                                     </li>
@@ -71,7 +70,7 @@
                                         <div class="site-footer-two__contact-content">
                                             <h5 class="site-footer-two__contact-title">Location</h5>
                                             <p class="site-footer-two__contact-info">
-                                                123 Main Street, Apt 4BNew <br> York, NY 10001USA
+                                                4721 Rosebud Drive GA, Snellville<br> Georgia, United States
                                             </p>
                                         </div>
                                     </li>

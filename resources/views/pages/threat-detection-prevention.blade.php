@@ -1,5 +1,5 @@
 @extends('layouts.layout4')
-@section('title', 'Threat Detection & Prevention || LyraLogics || IT Solutions & Technology Laravel Template')
+@section('title', 'Threat Detection & Prevention || LyraLogics || IT Solutions & Technology  ')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/faq.css') }}">
 @endpush
@@ -257,7 +257,7 @@
                             </div>
                             <div class="content">
                                 <span>Get Support</span>
-                                <p><a href="tel:9900567780">99 (00) 567 780</a></p>
+                                <p><a href="tel:6785236569">+1 (678) 523 6569</a></p>
                             </div>
                         </div>
                         <div class="faq-two__btn-box">

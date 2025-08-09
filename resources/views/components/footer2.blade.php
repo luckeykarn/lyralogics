@@ -51,8 +51,8 @@
                                     <p>Working Time</p>
                                 </div>
                                 <div class="text">
-                                    <p>Sunday - Monday (Fri - Closed) <br>
-                                        10:00 AM - 5:00 PM</p>
+                                    <p>Sunday - Friday (Saturday - Closed) <br>
+                                        10:00 AM - 6:00 PM</p>
                                 </div>
                             </li>
                             <li>
@@ -62,8 +62,8 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        <a href="mailto:support@domain.com" class="mail-box">support@domain.com</a>
-                                        <a href="tel:12004567890" class="call-number">+12 (00) 456 7890</a>
+                                        <a href="mailto:ceo@lyralogics.com" class="mail-box">ceo@lyralogics.com</a>
+                                        <a href="tel:12004567890" class="call-number">+1 (678) 523 6569</a>
                                     </p>
                                 </div>
                             </li>

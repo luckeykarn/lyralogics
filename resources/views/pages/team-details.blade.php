@@ -1,5 +1,5 @@
 @extends('layouts.layout4')
-@section('title', 'Team Details || LyraLogics || IT Solutions & Technology Laravel Template')
+@section('title', 'Team Details || LyraLogics || IT Solutions & Technology  ')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/skill.css') }}">
 @endpush
@@ -48,8 +48,8 @@
                                     </div>
                                     <div class="content">
                                         <h5>Location</h5>
-                                        <p>1629 N. Dixie Avenue,
-                                            <br> Kentucky, 42701
+                                        <p>4721 Rosebud Drive,
+                                            <br> GA, Snellville , 30039
                                         </p>
                                     </div>
                                 </li>
@@ -59,8 +59,8 @@
                                     </div>
                                     <div class="content">
                                         <h5>Education</h5>
-                                        <p>Tel: <a href="tel:1200456789000"> 12 (00) 456 7890 00</a></p>
-                                        <p>Mob: <a href="tel:9900567780"> 99 (00) 567 780</a></p>
+                                        <p>Tel: <a href="tel:6785236569"> +1 (678) 523 6569</a></p>
+                                        <p>Mob: <a href="tel:6785236569"> +1 (678) 523 6569</a></p>
                                     </div>
                                 </li>
                             </ul>
@@ -72,7 +72,7 @@
                                     <div class="content">
                                         <h5>Contact Info</h5>
                                         <p><a href="mailto:info@domain.com">info@domain.com</a></p>
-                                        <p>Mob: <a href="tel:9900567780"> 99 (00) 567 780</a></p>
+                                        <p>Mob: <a href="tel:6785236569"> +1 (678) 523 6569</a></p>
                                     </div>
                                 </li>
                                 <li>

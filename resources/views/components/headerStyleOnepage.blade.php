@@ -9,7 +9,7 @@
                                 <i class="icon-pin"></i>
                             </div>
                             <div class="text">
-                                <p>1629 N. Dixie Avenue, Kentucky, 42701</p>
+                                <p>4721 Rosebud Drive GA, Snellville , 30039</p>
                             </div>
                         </li>
                         <li>
@@ -17,7 +17,7 @@
                                 <i class="icon-search-mail"></i>
                             </div>
                             <div class="text">
-                                <p><a href="mailto:example@domain.com">example@domain.com</a>
+                                <p><a href="mailto:info@lyralogics.com">info@lyralogics.com</a>
                                 </p>
                             </div>
                         </li>
@@ -26,7 +26,7 @@
                                 <i class="icon-phone-call"></i>
                             </div>
                             <div class="text">
-                                <p><a href="tel:1212345678900">+12 (123) 456 78900</a></p>
+                                <p><a href="tel:6785236569">+1 (678) 523 6569</a></p>
                             </div>
                         </li>
                     </ul>

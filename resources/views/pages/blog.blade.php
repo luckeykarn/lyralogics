@@ -1,5 +1,5 @@
 @extends('layouts.layout4')
-@section('title', 'Blog || LyraLogics || IT Solutions & Technology Laravel Template')
+@section('title', 'Blog || LyraLogics || IT Solutions & Technology  ')
 
 
 @section('content')
