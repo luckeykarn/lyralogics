@@ -100,8 +100,7 @@
                                         <h4 class="blog-details__author-name">Jhon Smith</h4>
                                     </div>
                                     <p class="blog-details__author-text">“<br>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+                                        Lyra Logics is a leading IT company specializing in software development, artificial intelligence, cloud solutions, cybersecurity, marketing, and graphic design. We are committed to delivering innovative technology services that empower your business to succeed in the digital world.,<br>
                                         “</p>
                                 </div>
                                 <h3 class="blog-details__title-3">Quantum Computing Breakthroughs</h3>
@@ -448,8 +447,7 @@
                                 </div>
                                 <h3 class="sidebar__client-title">Jordan M. Walk</h3>
                                 <p class="sidebar__client-sub-title">Digital Marketer</p>
-                                <p class="sidebar__client-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p class="sidebar__client-text">Lyra Logics is a leading IT company specializing in software development, artificial intelligence, cloud solutions, cybersecurity, marketing, and graphic design. We are committed to delivering innovative technology services that empower your business to succeed in the digital world. </p>
                                 <div class="sidebar__client-social-box">
                                     <p class="sidebar__client-social-title">Follow Me</p>
                                     <div class="sidebar__client-social">

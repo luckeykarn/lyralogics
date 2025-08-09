@@ -247,18 +247,8 @@
                         <div class="tab " id="additional-information">
                             <div class="product-details__tab-content-inner">
                                 <div class="product-details__additional-information-content">
-                                    <p class="product-details__additional-information-text-1">Lorem ipsum dolor sit
-                                        amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of
-                                        passages of Lorem Ipsum available, but the majority have alteration in some
-                                        injected or words which don't look even slightly believable. If you are
-                                        going to use a passage of Lorem Ipsum, you need to be sure there isn't
-                                        anything embarrang hidden in the middle of text.</p>
-                                    <p class="product-details__additional-information-text-2">Quas molestias
-                                        excepturi sint occaecati cupiditate non provident, similique sunt in
-                                        culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                                        fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam
-                                        libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
-                                        quo</p>
+                                    <p class="product-details__additional-information-text-1">Lyra Logics is a leading IT company specializing in software development, artificial intelligence, cloud solutions, cybersecurity, marketing, and graphic design. We are committed to delivering innovative technology services that empower your business to succeed in the digital world.</p>
+                                    <p class="product-details__additional-information-text-2">Lyra Logics is a leading IT company specializing in software development, artificial intelligence, cloud solutions, cybersecurity, marketing, and graphic design. We are committed to delivering innovative technology services that empower your business to succeed in the digital world.</p>
                                 </div>
                             </div>
                         </div>
@@ -297,13 +287,7 @@
                                                     </div>
 
                                                     <div class="review-one__content-bottom">
-                                                        <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
-                                                            phaedrum. There are many variations of passages of Lorem
-                                                            Ipsum available, but the majority have alteration in
-                                                            some injected or words which don't look even slightly
-                                                            believable. If you are going to use a passage of Lorem
-                                                            Ipsum, you need to be sure there isn't anything
-                                                            embarrang hidden in the middle of text.</p>
+                                                        <p>Lyra Logics is a leading IT company specializing in software development, artificial intelligence, cloud solutions, cybersecurity, marketing, and graphic design. We are committed to delivering innovative technology services that empower your business to succeed in the digital world.</p>
                                                     </div>
                                                 </div>
                                             </div>

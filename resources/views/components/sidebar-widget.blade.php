@@ -14,8 +14,7 @@
                             </div>
                             <div class="content-box">
                                 <h4>About Us</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut
-                                    labore et magna aliqua. Ut enim ad minim veniam laboris.</p>
+                                <p>Lyra Logics is a leading IT company specializing in software development, artificial intelligence, cloud solutions, cybersecurity, marketing, and graphic design. We are committed to delivering innovative technology services that empower your business to succeed in the digital world.</p>
                             </div>
                             <div class="form-inner">
                                 <h4>Get a free quote</h4>
