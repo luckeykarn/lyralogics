@@ -2255,254 +2255,112 @@
     <!-- Event One End -->
 
     <!-- Testimonial Two Start -->
-    <section class="testimonial-two">
-        <div class="testimonial-two__shape-1"></div>
-        <div class="testimonial-two__shape-2"></div>
-        <div class="container">
-            <div class="section-title text-center sec-title-animation animation-style1">
-                <div class="section-title__tagline-box">
-                    <div class="section-title__tagline-shape-1"></div>
-                    <span class="section-title__tagline">Testimonials</span>
-                    <div class="section-title__tagline-shape-2"></div>
-                </div>
-                <h2 class="section-title__title title-animation">Customer Experiences <br> That <span>Speak
-                        Volumes</span></h2>
+<section class="testimonial-two">
+    <div class="testimonial-two__shape-1"></div>
+    <div class="testimonial-two__shape-2"></div>
+    <div class="container">
+        <div class="section-title text-center sec-title-animation animation-style1">
+            <div class="section-title__tagline-box">
+                <div class="section-title__tagline-shape-1"></div>
+                <span class="section-title__tagline">Testimonials</span>
+                <div class="section-title__tagline-shape-2"></div>
             </div>
-            <div class="testimonial-two__carousel owl-theme owl-carousel">
-                <!-- Testimonial Two Single Start -->
-                <div class="item">
-                    <div class="testimonial-two__single">
-                        <div class="testimonial-two__single-inner">
-                            <div class="testimonial-two__star">
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-star"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                            <p class="testimonial-two__text">Absolutely fantastic experience! The team exceeded our
-                                expectations and delivered a solution that perfectly met our needs. Their attention
-                                to
-                                detail and commitment to quality is unmatched.</p>
-                        </div>
-                        <div class="testimonial-two__client-info">
-                            <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}"
-                                    alt="">
-                            </div>
-                            <div class="testimonial-two__client-content">
-                                <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">Thomas
-                                        Alison</a></h4>
-                                <p class="testimonial-two__sub-title">UI/UX Designer</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-two__quote">
-                            <span class="icon-right-quote"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Two Single End -->
-                <!-- Testimonial Two Single Start -->
-                <div class="item">
-                    <div class="testimonial-two__single">
-                        <div class="testimonial-two__single-inner">
-                            <div class="testimonial-two__star">
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-star"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                            <p class="testimonial-two__text">Absolutely fantastic experience! The team exceeded our
-                                expectations and delivered a solution that perfectly met our needs. Their attention
-                                to
-                                detail and commitment to quality is unmatched.</p>
-                        </div>
-                        <div class="testimonial-two__client-info">
-                            <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-2.jpg') }}"
-                                    alt="">
-                            </div>
-                            <div class="testimonial-two__client-content">
-                                <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">Sarah
-                                        Williams</a></h4>
-                                <p class="testimonial-two__sub-title">Marketing Manger</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-two__quote">
-                            <span class="icon-right-quote"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Two Single End -->
-                <!-- Testimonial Two Single Start -->
-                <div class="item">
-                    <div class="testimonial-two__single">
-                        <div class="testimonial-two__single-inner">
-                            <div class="testimonial-two__star">
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-star"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                            <p class="testimonial-two__text">Absolutely fantastic experience! The team exceeded our
-                                expectations and delivered a solution that perfectly met our needs. Their attention
-                                to
-                                detail and commitment to quality is unmatched.</p>
-                        </div>
-                        <div class="testimonial-two__client-info">
-                            <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-3.jpg') }}"
-                                    alt="">
-                            </div>
-                            <div class="testimonial-two__client-content">
-                                <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">James
-                                        Anderson</a></h4>
-                                <p class="testimonial-two__sub-title">Product Designer</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-two__quote">
-                            <span class="icon-right-quote"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Two Single End -->
-                <!-- Testimonial Two Single Start -->
-                <div class="item">
-                    <div class="testimonial-two__single">
-                        <div class="testimonial-two__single-inner">
-                            <div class="testimonial-two__star">
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-star"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                            <p class="testimonial-two__text">Absolutely fantastic experience! The team exceeded our
-                                expectations and delivered a solution that perfectly met our needs. Their attention
-                                to
-                                detail and commitment to quality is unmatched.</p>
-                        </div>
-                        <div class="testimonial-two__client-info">
-                            <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}"
-                                    alt="">
-                            </div>
-                            <div class="testimonial-two__client-content">
-                                <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">Thomas
-                                        Alison</a></h4>
-                                <p class="testimonial-two__sub-title">UI/UX Designer</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-two__quote">
-                            <span class="icon-right-quote"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Two Single End -->
-                <!-- Testimonial Two Single Start -->
-                <div class="item">
-                    <div class="testimonial-two__single">
-                        <div class="testimonial-two__single-inner">
-                            <div class="testimonial-two__star">
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-star"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                            <p class="testimonial-two__text">Absolutely fantastic experience! The team exceeded our
-                                expectations and delivered a solution that perfectly met our needs. Their attention
-                                to
-                                detail and commitment to quality is unmatched.</p>
-                        </div>
-                        <div class="testimonial-two__client-info">
-                            <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-2.jpg') }}"
-                                    alt="">
-                            </div>
-                            <div class="testimonial-two__client-content">
-                                <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">Sarah
-                                        Williams</a></h4>
-                                <p class="testimonial-two__sub-title">Marketing Manger</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-two__quote">
-                            <span class="icon-right-quote"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Two Single End -->
-                <!-- Testimonial Two Single Start -->
-                <div class="item">
-                    <div class="testimonial-two__single">
-                        <div class="testimonial-two__single-inner">
-                            <div class="testimonial-two__star">
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-star"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                            <p class="testimonial-two__text">Absolutely fantastic experience! The team exceeded our
-                                expectations and delivered a solution that perfectly met our needs. Their attention
-                                to
-                                detail and commitment to quality is unmatched.</p>
-                        </div>
-                        <div class="testimonial-two__client-info">
-                            <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-3.jpg') }}"
-                                    alt="">
-                            </div>
-                            <div class="testimonial-two__client-content">
-                                <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">James
-                                        Anderson</a></h4>
-                                <p class="testimonial-two__sub-title">Product Designer</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-two__quote">
-                            <span class="icon-right-quote"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Two Single End -->
-                <!-- Testimonial Two Single Start -->
-                <div class="item">
-                    <div class="testimonial-two__single">
-                        <div class="testimonial-two__single-inner">
-                            <div class="testimonial-two__star">
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-pointed-star"></span>
-                                <span class="icon-star"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                            <p class="testimonial-two__text">Absolutely fantastic experience! The team exceeded our
-                                expectations and delivered a solution that perfectly met our needs. Their attention
-                                to
-                                detail and commitment to quality is unmatched.</p>
-                        </div>
-                        <div class="testimonial-two__client-info">
-                            <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-2.jpg') }}"
-                                    alt="">
-                            </div>
-                            <div class="testimonial-two__client-content">
-                                <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">Sarah
-                                        Williams</a></h4>
-                                <p class="testimonial-two__sub-title">Marketing Manger</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-two__quote">
-                            <span class="icon-right-quote"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Two Single End -->
-            </div>
+            <h2 class="section-title__title title-animation">Customer Experiences <br> That <span>Speak
+                    Volumes</span></h2>
         </div>
-    </section>
+        <div class="testimonial-two__carousel owl-theme owl-carousel">
+            <!-- Testimonial Two Single Start -->
+            <div class="item">
+                <div class="testimonial-two__single">
+                    <div class="testimonial-two__single-inner">
+                        <div class="testimonial-two__star">
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-star"></span>
+                            <span class="icon-star"></span>
+                        </div>
+                        <p class="testimonial-two__text">The UI/UX design they crafted was intuitive, modern, and perfectly aligned with our brand. It significantly improved our user engagement.</p>
+                    </div>
+                    <div class="testimonial-two__client-info">
+                        <div class="testimonial-two__client-img">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                        </div>
+                        <div class="testimonial-two__client-content">
+                            <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">Thomas Alison</a></h4>
+                            <p class="testimonial-two__sub-title">UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-two__quote">
+                        <span class="icon-right-quote"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Two Single End -->
+
+            <!-- Testimonial Two Single Start -->
+            <div class="item">
+                <div class="testimonial-two__single">
+                    <div class="testimonial-two__single-inner">
+                        <div class="testimonial-two__star">
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-star"></span>
+                            <span class="icon-star"></span>
+                        </div>
+                        <p class="testimonial-two__text">Their marketing strategies brought a noticeable boost in our brand’s visibility. Campaign results exceeded expectations within weeks.</p>
+                    </div>
+                    <div class="testimonial-two__client-info">
+                        <div class="testimonial-two__client-img">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-2-2.jpg') }}" alt="">
+                        </div>
+                        <div class="testimonial-two__client-content">
+                            <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">Sarah Williams</a></h4>
+                            <p class="testimonial-two__sub-title">Marketing Manager</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-two__quote">
+                        <span class="icon-right-quote"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Two Single End -->
+
+            <!-- Testimonial Two Single Start -->
+            <div class="item">
+                <div class="testimonial-two__single">
+                    <div class="testimonial-two__single-inner">
+                        <div class="testimonial-two__star">
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-pointed-star"></span>
+                            <span class="icon-star"></span>
+                            <span class="icon-star"></span>
+                        </div>
+                        <p class="testimonial-two__text">From concept to final design, their product development approach was creative and user-focused. We couldn’t have asked for better results.</p>
+                    </div>
+                    <div class="testimonial-two__client-info">
+                        <div class="testimonial-two__client-img">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-2-3.jpg') }}" alt="">
+                        </div>
+                        <div class="testimonial-two__client-content">
+                            <h4 class="testimonial-two__client-name"><a href="{{ route('testimonials') }}">James Anderson</a></h4>
+                            <p class="testimonial-two__sub-title">Product Designer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-two__quote">
+                        <span class="icon-right-quote"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Two Single End -->
+
+            <!-- Repeat for other duplicates with unique content per role -->
+        </div>
+    </div>
+</section>
+
     <!-- Testimonial Two End -->
 
     <!-- Blog Two Start -->
