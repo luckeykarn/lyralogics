@@ -29,7 +29,7 @@
                                 <div class="about-four__experience">
                                     <div class="about-four__experience-inner">
                                         <div class="about-four__experience-count-box">
-                                            <h3 class="odometer" data-count="25">00</h3>
+                                            <h3 class="odometer" data-count="1">00</h3>
                                         </div>
                                         <p class="about-four__experience-count-text">Years of
                                             <br> Experience</p>
@@ -58,7 +58,7 @@
                                     </li>
                                 </ul>
                                 <p class="about-four__client-text"><span class="odometer"
-                                        data-count="120">00</span><span>K</span> Satisfied Client</p>
+                                        data-count="1">00</span><span>K</span> Satisfied Client</p>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                                             <img src="{{ asset('assets/images/resources/about-four-points-list-img.jpg') }}" alt="">
                                         </div>
                                         <div class="about-four__points-list-content">
-                                            <h5>Thomas Alison</h5>
+                                            <h5>Sachin Sharma </h5>
                                             <p>Founder & SEO</p>
                                         </div>
                                     </li>
@@ -266,8 +266,8 @@
                             </div>
                             <div class="counter-two__content">
                                 <div class="counter-two__count-box">
-                                    <h3 class="odometer" data-count="20">00</h3>
-                                    <span>M</span>
+                                    <h3 class="odometer" data-count="1">00</h3>
+                                    <span>K</span>
                                 </div>
                                 <p class="counter-two__text">Happy Clients Review</p>
                             </div>

@@ -812,7 +812,7 @@
                             </div>
                             <div class="counter-one__content">
                                 <div class="counter-one__count-box">
-                                    <h3 class="odometer" data-count="99">00</h3>
+                                    <h3 class="odometer" data-count="1">00</h3>
                                     <span>%</span>
                                 </div>
                                 <p class="counter-one__text">Satisfied client</p>
@@ -1517,7 +1517,7 @@
                                         <div class="contact-one__input-icon">
                                             <span class="icon-user-1"></span>
                                         </div>
-                                        <input type="text" name="name" placeholder="Thomas Alison" required="">
+                                        <input type="text" name="name" placeholder="Sachin Sharma " required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
@@ -1545,7 +1545,7 @@
                                     <div class="contact-one__input-box">
                                         <div class="select-box">
                                             <select class="selectmenu wide">
-                                                <option selected>Thomas Alison
+                                                <option selected>Sachin Sharma 
                                                 </option>
                                                 <option>Type Of Service 01</option>
                                                 <option>Type Of Service 02</option>

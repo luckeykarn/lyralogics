@@ -32,7 +32,7 @@
                             <img src="{{ asset('assets/images/icon/pricing-icon-1.png') }}" alt="">
                         </div>
                         <span class="pricing-one__sub-title">PERSONAL</span>
-                        <h2 class="pricing-one__price">$5.60</h2>
+                        <h2 class="pricing-one__price">$5000</h2>
                         <p class="pricing-one__text">*free 3 months solutions<br> support*</p>
                         <div class="pricing-one__bdr"></div>
                         <h5 class="pricing-one__points-title">Feature Description</h5>
@@ -82,7 +82,7 @@
                             <img src="{{ asset('assets/images/icon/pricing-icon-1.png') }}" alt="">
                         </div>
                         <span class="pricing-one__sub-title">ENTERPRISE</span>
-                        <h2 class="pricing-one__price">$25.60</h2>
+                        <h2 class="pricing-one__price">$9999</h2>
                         <p class="pricing-one__text">*free 6 months solutions<br> support*</p>
                         <div class="pricing-one__bdr"></div>
                         <h5 class="pricing-one__points-title">Feature Description</h5>
@@ -132,7 +132,7 @@
                             <img src="{{ asset('assets/images/icon/pricing-icon-1.png') }}" alt="">
                         </div>
                         <span class="pricing-one__sub-title">Premium</span>
-                        <h2 class="pricing-one__price">$120.60</h2>
+                        <h2 class="pricing-one__price">$50000.45</h2>
                         <p class="pricing-one__text">*free 12 months solutions<br> support*</p>
                         <div class="pricing-one__bdr"></div>
                         <h5 class="pricing-one__points-title">Feature Description</h5>

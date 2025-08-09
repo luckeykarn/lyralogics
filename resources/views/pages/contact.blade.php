@@ -33,7 +33,7 @@
                                         <div class="contact-one__input-icon">
                                             <span class="icon-user-1"></span>
                                         </div>
-                                        <input type="text" name="name" placeholder="Thomas Alison" required="">
+                                        <input type="text" name="name" placeholder="Sachin Sharma " required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
@@ -60,7 +60,7 @@
                                     <div class="contact-one__input-box">
                                         <div class="select-box">
                                             <select class="selectmenu wide">
-                                                <option selected="selected">Thomas Alison</option>
+                                                <option selected="selected">Sachin Sharma </option>
                                                 <option>Type Of Service 01</option>
                                                 <option>Type Of Service 02</option>
                                                 <option>Type Of Service 03</option>

@@ -586,7 +586,7 @@
                             </div>
                             <div class="counter-one__content">
                                 <div class="counter-one__count-box">
-                                    <h3 class="odometer" data-count="99">00</h3>
+                                    <h3 class="odometer" data-count="1">00</h3>
                                     <span>%</span>
                                 </div>
                                 <p class="counter-one__text">Satisfied client</p>
@@ -947,7 +947,7 @@
                                         <div class="contact-one__input-icon">
                                             <span class="icon-user-1"></span>
                                         </div>
-                                        <input type="text" name="name" placeholder="Thomas Alison" required="">
+                                        <input type="text" name="name" placeholder="Sachin Sharma " required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
@@ -975,7 +975,7 @@
                                     <div class="contact-one__input-box">
                                         <div class="select-box">
                                             <select class="selectmenu wide">
-                                                <option selected>Thomas Alison
+                                                <option selected>Sachin Sharma 
                                                 </option>
                                                 <option>Type Of Service 01</option>
                                                 <option>Type Of Service 02</option>
@@ -1537,7 +1537,7 @@
                             <img src="{{ asset('assets/images/icon/pricing-icon-1.png') }}" alt="">
                         </div>
                         <span class="pricing-one__sub-title">PERSONAL</span>
-                        <h2 class="pricing-one__price">$5.60</h2>
+                        <h2 class="pricing-one__price">$5000</h2>
                         <p class="pricing-one__text">*free 3 months solutions<br> support*</p>
                         <div class="pricing-one__bdr"></div>
                         <h5 class="pricing-one__points-title">Feature Description</h5>
@@ -1587,7 +1587,7 @@
                             <img src="{{ asset('assets/images/icon/pricing-icon-1.png') }}" alt="">
                         </div>
                         <span class="pricing-one__sub-title">ENTERPRISE</span>
-                        <h2 class="pricing-one__price">$25.60</h2>
+                        <h2 class="pricing-one__price">$9999</h2>
                         <p class="pricing-one__text">*free 6 months solutions<br> support*</p>
                         <div class="pricing-one__bdr"></div>
                         <h5 class="pricing-one__points-title">Feature Description</h5>
@@ -1637,7 +1637,7 @@
                             <img src="{{ asset('assets/images/icon/pricing-icon-1.png') }}" alt="">
                         </div>
                         <span class="pricing-one__sub-title">Premium</span>
-                        <h2 class="pricing-one__price">$120.60</h2>
+                        <h2 class="pricing-one__price">$50000.45</h2>
                         <p class="pricing-one__text">*free 12 months solutions<br> support*</p>
                         <div class="pricing-one__bdr"></div>
                         <h5 class="pricing-one__points-title">Feature Description</h5>
@@ -2146,7 +2146,7 @@
                                 <div class="blog-one__user-img">
                                     <img src="{{ asset('assets/images/blog/blog-one-user-3.jpg') }}" alt="">
                                 </div>
-                                <p class="blog-one__user-title">Thomas Alison</p>
+                                <p class="blog-one__user-title">Sachin Sharma </p>
                             </div>
                             <ul class="blog-one__meta list-unstyled">
                                 <li>
@@ -2227,7 +2227,7 @@
                                 <div class="blog-one__user-img">
                                     <img src="{{ asset('assets/images/blog/blog-one-user-4.jpg') }}" alt="">
                                 </div>
-                                <p class="blog-one__user-title">Thomas Alison</p>
+                                <p class="blog-one__user-title">Sachin Sharma </p>
                             </div>
                             <ul class="blog-one__meta list-unstyled">
                                 <li>
@@ -2268,7 +2268,7 @@
                                 <div class="blog-one__user-img">
                                     <img src="{{ asset('assets/images/blog/blog-one-user-3.jpg') }}" alt="">
                                 </div>
-                                <p class="blog-one__user-title">Thomas Alison</p>
+                                <p class="blog-one__user-title">Sachin Sharma </p>
                             </div>
                             <ul class="blog-one__meta list-unstyled">
                                 <li>

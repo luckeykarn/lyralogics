@@ -515,7 +515,7 @@
                                 </li>
                             </ul>
                             <p class="about-two__client-text"><span class="odometer"
-                                    data-count="120">00</span><span>K</span> Satisfied Client</p>
+                                    data-count="1">00</span><span>K</span> Satisfied Client</p>
                         </div>
                     </div>
                 </div>
@@ -568,7 +568,7 @@
                         <div class="about-two__experience-contact-and-btn">
                             <div class="about-two__experience-box">
                                 <div class="about-two__experience-count-box">
-                                    <h3 class="odometer" data-count="25">00</h3>
+                                    <h3 class="odometer" data-count="1">00</h3>
                                     <span> </span>
                                 </div>
                                 <p class="about-two__experience-text">Years of
@@ -648,8 +648,8 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="20">00</h3>
-                                <span>M</span>
+                                <h3 class="odometer" data-count="1">00</h3>
+                                <span>K</span>
                             </div>
                             <p class="counter-two__text">Happy Clients Review</p>
                         </div>
@@ -881,7 +881,7 @@
                                         alt="">
                                 </div>
                                 <div class="why-choose-one__client-content">
-                                    <h3>Thomas Alison</h3>
+                                    <h3>Sachin Sharma </h3>
                                     <span>Founder & CEO</span>
                                 </div>
                             </div>
@@ -1408,7 +1408,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">PERSONAL</span>
-                                        <h2 class="pricing-two__price">$5.60</h2>
+                                        <h2 class="pricing-two__price">$5000</h2>
                                         <p class="pricing-two__text">Will get free 3 months solutions<br> support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1465,7 +1465,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">Premium</span>
-                                        <h2 class="pricing-two__price">$25.60</h2>
+                                        <h2 class="pricing-two__price">$9999</h2>
                                         <p class="pricing-two__text">Will get free 5 months solutions support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1529,7 +1529,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">Business</span>
-                                        <h2 class="pricing-two__price">$120.60</h2>
+                                        <h2 class="pricing-two__price">$50000.45</h2>
                                         <p class="pricing-two__text">Will get free lifetime solutions support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1592,7 +1592,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">PERSONAL</span>
-                                        <h2 class="pricing-two__price">$5.60</h2>
+                                        <h2 class="pricing-two__price">$5000</h2>
                                         <p class="pricing-two__text">Will get free 3 months solutions<br> support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1649,7 +1649,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">Premium</span>
-                                        <h2 class="pricing-two__price">$25.60</h2>
+                                        <h2 class="pricing-two__price">$9999</h2>
                                         <p class="pricing-two__text">Will get free 5 months solutions support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1713,7 +1713,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">Business</span>
-                                        <h2 class="pricing-two__price">$120.60</h2>
+                                        <h2 class="pricing-two__price">$50000.45</h2>
                                         <p class="pricing-two__text">Will get free lifetime solutions support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1776,7 +1776,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">PERSONAL</span>
-                                        <h2 class="pricing-two__price">$5.60</h2>
+                                        <h2 class="pricing-two__price">$5000</h2>
                                         <p class="pricing-two__text">Will get free 3 months solutions<br> support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1833,7 +1833,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">Premium</span>
-                                        <h2 class="pricing-two__price">$25.60</h2>
+                                        <h2 class="pricing-two__price">$9999</h2>
                                         <p class="pricing-two__text">Will get free 5 months solutions support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -1897,7 +1897,7 @@
                                                 alt="">
                                         </div>
                                         <span class="pricing-two__sub-title">Business</span>
-                                        <h2 class="pricing-two__price">$120.60</h2>
+                                        <h2 class="pricing-two__price">$50000.45</h2>
                                         <p class="pricing-two__text">Will get free lifetime solutions support
                                         </p>
                                         <div class="pricing-two__btn-box">
@@ -2022,7 +2022,7 @@
                                         <div class="contact-one__input-icon">
                                             <span class="icon-user-1"></span>
                                         </div>
-                                        <input type="text" name="name" placeholder="Thomas Alison"
+                                        <input type="text" name="name" placeholder="Sachin Sharma "
                                             required="">
                                     </div>
                                 </div>
@@ -2051,7 +2051,7 @@
                                     <div class="contact-one__input-box">
                                         <div class="select-box">
                                             <select class="selectmenu wide">
-                                                <option selected>Thomas Alison
+                                                <option selected>Sachin Sharma 
                                                 </option>
                                                 <option>Type Of Service 01</option>
                                                 <option>Type Of Service 02</option>

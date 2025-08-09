@@ -115,7 +115,7 @@
                                     <div class="blog-one__user-img">
                                         <img src="{{ asset('assets/images/blog/blog-page-user-3.jpg') }}" alt="">
                                     </div>
-                                    <p class="blog-one__user-title">Thomas Alison</p>
+                                    <p class="blog-one__user-title">Sachin Sharma </p>
                                 </div>
                                 <ul class="blog-one__meta list-unstyled">
                                     <li>
@@ -229,7 +229,7 @@
                                     <div class="blog-one__user-img">
                                         <img src="{{ asset('assets/images/blog/blog-page-user-6.jpg') }}" alt="">
                                     </div>
-                                    <p class="blog-one__user-title">Thomas Alison</p>
+                                    <p class="blog-one__user-title">Sachin Sharma </p>
                                 </div>
                                 <ul class="blog-one__meta list-unstyled">
                                     <li>

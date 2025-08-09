@@ -243,7 +243,7 @@
                                             <div class="contact-one__input-icon">
                                                 <span class="icon-user-1"></span>
                                             </div>
-                                            <input type="text" name="name" placeholder="Thomas Alison" required="">
+                                            <input type="text" name="name" placeholder="Sachin Sharma " required="">
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6">
@@ -271,7 +271,7 @@
                                         <div class="contact-one__input-box">
                                             <div class="select-box">
                                                 <select class="selectmenu wide">
-                                                    <option selected="selected">Thomas Alison
+                                                    <option selected="selected">Sachin Sharma 
                                                     </option>
                                                     <option>Type Of Service 01</option>
                                                     <option>Type Of Service 02</option>
@@ -465,7 +465,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">PERSONAL</span>
-                                            <h2 class="pricing-two__price">$5.60</h2>
+                                            <h2 class="pricing-two__price">$5000</h2>
                                             <p class="pricing-two__text">Will get free 3 months solutions<br> support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -518,7 +518,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">Premium</span>
-                                            <h2 class="pricing-two__price">$25.60</h2>
+                                            <h2 class="pricing-two__price">$9999</h2>
                                             <p class="pricing-two__text">Will get free 5 months solutions support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -578,7 +578,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">Business</span>
-                                            <h2 class="pricing-two__price">$120.60</h2>
+                                            <h2 class="pricing-two__price">$50000.45</h2>
                                             <p class="pricing-two__text">Will get free lifetime solutions support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -637,7 +637,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">PERSONAL</span>
-                                            <h2 class="pricing-two__price">$5.60</h2>
+                                            <h2 class="pricing-two__price">$5000</h2>
                                             <p class="pricing-two__text">Will get free 3 months solutions<br> support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -690,7 +690,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">Premium</span>
-                                            <h2 class="pricing-two__price">$25.60</h2>
+                                            <h2 class="pricing-two__price">$9999</h2>
                                             <p class="pricing-two__text">Will get free 5 months solutions support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -750,7 +750,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">Business</span>
-                                            <h2 class="pricing-two__price">$120.60</h2>
+                                            <h2 class="pricing-two__price">$50000.45</h2>
                                             <p class="pricing-two__text">Will get free lifetime solutions support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -809,7 +809,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">PERSONAL</span>
-                                            <h2 class="pricing-two__price">$5.60</h2>
+                                            <h2 class="pricing-two__price">$5000</h2>
                                             <p class="pricing-two__text">Will get free 3 months solutions<br> support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -862,7 +862,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">Premium</span>
-                                            <h2 class="pricing-two__price">$25.60</h2>
+                                            <h2 class="pricing-two__price">$9999</h2>
                                             <p class="pricing-two__text">Will get free 5 months solutions support
                                             </p>
                                             <div class="pricing-two__btn-box">
@@ -922,7 +922,7 @@
                                                 <img src="{{ asset('assets/images/shapes/pricing-two-shape-3.png') }}" alt="">
                                             </div>
                                             <span class="pricing-two__sub-title">Business</span>
-                                            <h2 class="pricing-two__price">$120.60</h2>
+                                            <h2 class="pricing-two__price">$50000.45</h2>
                                             <p class="pricing-two__text">Will get free lifetime solutions support
                                             </p>
                                             <div class="pricing-two__btn-box">

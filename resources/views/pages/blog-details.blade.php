@@ -26,7 +26,7 @@
                                     <div class="blog-details__user-img">
                                         <img src="{{ asset('assets/images/blog/blog-details-user-1.jpg') }}" alt="">
                                     </div>
-                                    <p class="blog-details__user-title">Thomas Alison</p>
+                                    <p class="blog-details__user-title">Sachin Sharma </p>
                                 </div>
                                 <ul class="blog-details__meta list-unstyled">
                                     <li>
@@ -266,7 +266,7 @@
                                                         <div class="contact-one__input-icon">
                                                             <span class="icon-user-1"></span>
                                                         </div>
-                                                        <input type="text" name="name" placeholder="Thomas Alison"
+                                                        <input type="text" name="name" placeholder="Sachin Sharma "
                                                             required="">
                                                     </div>
                                                 </div>
@@ -295,7 +295,7 @@
                                                     <div class="contact-one__input-box">
                                                         <div class="select-box">
                                                             <select class="selectmenu wide">
-                                                                <option selected="selected">Thomas Alison
+                                                                <option selected="selected">Sachin Sharma 
                                                                 </option>
                                                                 <option>Type Of Service 01</option>
                                                                 <option>Type Of Service 02</option>
